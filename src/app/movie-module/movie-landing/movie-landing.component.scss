@@ -1,0 +1,15 @@
+.container {
+    margin: 20px;
+    .get-container {
+        height: 200px;
+        margin: 10px;
+        align-items: center;
+        border: 1px solid black;
+        overflow-y: scroll;
+        .heading {
+            height: 50px;
+            border-bottom: 1px solid black;
+            text-align: center
+        }
+    }
+}

@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="get-container" *ngFor="let item of generesList">
+    <div class="heading">{{item.id}} {{item.name}}
+    </div>
+    <div class="poster-container">Poster Image</div>
+    <ng-container>
+        <app-movie-list [movieId]="item.id">
+        </app-movie-list>
+    </ng-container>
+  </div>
+</div>
+

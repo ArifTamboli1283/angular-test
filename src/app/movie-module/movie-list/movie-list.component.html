@@ -1,0 +1,7 @@
+
+<table class="nlsg-movie-list ">
+  <tr class="movie-row" *ngFor="let item of movieListToShow" (click)="getSelectedtypeMovieDetails(item.id)"  >
+    <td>{{item.id}}</td>
+    <td>{{item.original_title}}</td>
+  </tr>
+</table>
